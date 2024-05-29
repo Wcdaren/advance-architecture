@@ -19,7 +19,7 @@ export class AppModule {
       module: AppModule,
       imports: [
         CoreModule.forRoot(options),
-        AlarmsModule.withInfastructure(
+        AlarmsModule.withInfrastructure(
           AlarmInfrastructureModule.use(options.driver),
         ),
       ],

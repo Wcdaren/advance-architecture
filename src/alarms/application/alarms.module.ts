@@ -27,7 +27,7 @@ import { UnacknowledgedAlarmsSaga } from './sagas/unacknowledged-alarms.saga';
   ],
 })
 export class AlarmsModule {
-  static withInfastructure(
+  static withInfrastructure(
     infrastructureModule: Type | DynamicModule,
   ): DynamicModule {
     return {
